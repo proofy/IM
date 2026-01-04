@@ -2,10 +2,7 @@
  * Zentrale Wortpaar-Datenbank
  */
 
-/** @typedef {import('../types/pairs.types').WordPair} WordPair */
-/** @type {WordPair[]} */
-
-export const PAIRS = [
+const PAIRS = [
 
   {
     id: 1,
@@ -35,47 +32,47 @@ export const PAIRS = [
   b: { word: "Bogen", image: "bow_and_arrow.svg" }
 },
 
-{
-  id: 5,
-  category: "Schlafen",
-  a: { word: "Kopf", image: "kopf" },
-  b: { word: "Kissen", image: "kissen" }
-},
+  {
+    id: 5,
+    category: "Schlafen",
+    a: { word: "Kopf", image: "kopf.svg" },
+    b: { word: "Kissen", image: "kissen.svg" }
+  },
 
 {
-  id: 6,
-  category: "Einkaufen",
-  a: { word: "Markt", image: "markt" },
-  b: { word: "Tasche", image: "tasche" }
-},
+    id: 6,
+    category: "Einkaufen",
+    a: { word: "Markt", image: "markt.svg" },
+    b: { word: "Tasche", image: "tasche.svg" }
+  },
 
 {
-  id: 7,
-  category: "Natur",
-  a: { word: "Wald", image: "wald" },
-  b: { word: "Hütte", image: "huette" }
-},
+    id: 7,
+    category: "Natur",
+    a: { word: "Wald", image: "forest.svg" },
+    b: { word: "Hütte", image: "hut.svg" }
+  },
 
 {
-  id: 8,
-  category: "Urlaub",
-  a: { word: "Strand", image: "strand" },
-  b: { word: "Handtuch", image: "handtuch" }
-},
+    id: 8,
+    category: "Urlaub",
+    a: { word: "Strand", image: "strand.svg" },
+    b: { word: "Handtuch", image: "towel.svg" }
+  },
 
 {
-  id: 9,
-  category: "Arbeit",
-  a: { word: "Büro", image: "buero" },
-  b: { word: "Stuhl", image: "stuhl" }
-},
+    id: 9,
+    category: "Arbeit",
+    a: { word: "Büro", image: "office.svg" },
+    b: { word: "Stuhl", image: "chair.svg" }
+  },
 
 {
-  id: 10,
-  category: "Küche",
-  a: { word: "Küche", image: "kueche" },
-  b: { word: "Messer", image: "messer" }
-},
+    id: 10,
+    category: "Küche",
+    a: { word: "Küche", image: "kitchen.svg" },
+    b: { word: "Messer", image: "knife.svg" }
+  },
 
 {
   id: 11,
