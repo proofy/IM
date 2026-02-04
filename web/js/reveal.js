@@ -16,7 +16,7 @@ function reveal() {
   app.innerHTML = `
     <div class="card ${assignment.role}">
       <h2>${assignment.word}</h2>
-      <img src="${assignment.image}" alt="Icon">
+      <img src="${assignment.image}" alt="Icon" onerror="this.onerror=null;this.src='./assets/icons/placeholder.svg';this.alt+=' (fehlend)';">
       <p class="role">${assignment.role === "im" ? "Du bist der Inoffizielle Mitspieler (IM)" : "Du bist ein normaler Mitspieler"}</p>
       <button onclick="next()">Weiter</button>
     </div>

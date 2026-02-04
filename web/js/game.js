@@ -51,7 +51,7 @@ function startNewGame() {
     const isIm = imIndices.includes(i);
     assignments.push({
       word: isIm ? pair.b.word : pair.a.word,
-      image: `assets/icons/${isIm ? pair.b.image : pair.a.image}`,
+      image: `./assets/icons/${isIm ? pair.b.image : pair.a.image}`,
       role: isIm ? 'im' : 'normi'
     });
   }
